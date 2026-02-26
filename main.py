@@ -2,4 +2,5 @@ def print_hi(name):
     print(f"Hi, {name}")
 
 if __name__ == "__main__":
-    print_hi("Hukam")
+    name = input("Enter your name : ")
+    print_hi(name)

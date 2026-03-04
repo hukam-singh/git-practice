@@ -3,4 +3,5 @@ def print_hi(name):
 
 if __name__ == "__main__":
     name = input("Enter your name : ")
-    print_hi(name)
+    age = int(input("Enter your age"))
+    print_hi(name, age)
